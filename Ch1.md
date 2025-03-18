@@ -16,12 +16,18 @@ However, defining an OS precisely is difficult because its boundaries vary acros
 From a **programmer’s perspective**, an OS provides **abstractions** of the underlying hardware. Additionally, because multiple programs may use the same hardware resources at the same time, the OS **manages resource sharing** efficiently.
 
 The OS abstracts several hardware components, including:
-- **Processors** – Controls CPU execution for multiple processes.
+- **Processors** – Controls CPU (Core) execution for multiple processes.
+   + **threads** of control
 - **RAM (Memory)** – Manages primary storage allocation.
+   + **process(program)**
 - **Disks** – Handles secondary storage and file management.
+   + **Files** - file system
 - **Network Interface** – Provides network communication capabilities.
+   + **Communication**
 - **Display** – Manages graphical output and rendering.
+   + **windows, graphic**
 - **Keyboard & Mouse** – Handles user input.
+   + **input & locator**
 
 ---
 
